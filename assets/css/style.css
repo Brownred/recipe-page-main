@@ -1,0 +1,95 @@
+/* Reset default styles */
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-RaspberryL: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.hero {
+    background-color: var(--White);
+    text-align: center;
+}
+
+.hero_image {
+    width: 100%;
+    height: auto;
+}
+
+.hero_content {
+    padding: 2rem;
+}
+
+.hero_content h1 {
+    font-size: 2.5rem;
+    color: var(--Nutmeg);
+    margin-bottom: 1rem;
+}
+
+.hero_content p {
+    font-size: 1.5rem;
+    color: var(--Dark-RaspberryL);
+    margin-bottom: 1rem;
+}
+
+.prep_time{
+    background-color: var(--Rose-White);
+    margin: 30px;
+    border-radius: 20px;
+    height: 150px;
+}
+
+.prep_time .container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.prep_time .container h2 {
+    font-size: 1.5rem;
+    color: var(--Nutmeg);
+}
+
+.prep_time .container li {
+    color: var(--Dark-RaspberryL);
+    padding: 2px 20px 2px;
+}
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700 */
