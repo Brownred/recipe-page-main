@@ -65,11 +65,14 @@ body {
 .prep_time .container h2 {
     font-size: 1.5rem;
     color: var(--Nutmeg);
+    padding-top: 5px;
+    padding-bottom: 8px;
 }
 
 .prep_time .container li {
     color: var(--Dark-RaspberryL);
-    padding: 2px 20px 2px;
+    padding: 10px 5px 10px;
+    list-style-position: inside;
 }
 
 /* ## Layout
